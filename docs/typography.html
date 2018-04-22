@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>React UI Kit</title>
+	<title>React UI Kit - Typography</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--Reset CSS-->
 	<link href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css"  rel="stylesheet">
 	<!--Roboto Font-->
@@ -10,12 +11,63 @@
 	<!--Font Awesome CSS-->
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  rel="stylesheet">
 	<!--Custom CSS-->
-	<link href="/assets/css/style.css" rel="stylesheet">
+	<link href="../assets/css/style.css" rel="stylesheet">
+	<link href="../assets/css/typography.css" rel="stylesheet">
 </head>
 <body>
 	<div class="container">
 		<div class="doc-wrapper">
-			typography
+			<div id="sidebar">
+				<div id="brand-name">
+					<a href="/">React UI kit</a>
+				</div>
+				<div id="menu-container">
+					<ul>
+						<li><a href="/docs/colors.html"><span>colors</span></a></li>
+						<li><a href="/docs/buttons.html"><span>buttons</span></a></li>
+						<li><a href="/docs/typography.html"><span>typography</span></a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="page-header">
+				<h3>Typography</h3>
+			</div>
+			<div id="content">
+				<div id="docs">
+					<h5>TYPEFACE</h5>
+					<div id="typeface" class="row span-5 t-span-4 m-span-6 s-span-6 xs-span-6">
+					    <div class="col"><span>Aa</span>
+					        <div class="info"><span>Light</span><span>300</span></div>
+					    </div>
+					    <div class="col"><span>Aa</span>
+					        <div class="info"><span>Regular</span><span>500</span></div>
+					    </div>
+					    <div class="col"><span>Aa</span>
+					        <div class="info"><span>Medium</span><span>600</span></div>
+					    </div>
+					    <div class="col"><span>Aa</span>
+					        <div class="info"><span>Semibold</span><span>700</span></div>
+					    </div>
+					    <div class="col"><span>Aa</span>
+					        <div class="info"><span>Bold</span><span>900</span></div>
+					    </div>
+					</div>
+					<h5>HIERARCHY</h5>
+					<div id="hierarchy" class="row span-12">
+					    <div class="col"><span>H1(BOLD)</span>
+					        <h1>Heading H1(64px)</h1></div>
+					    <div class="col"><span>H2(BOLD)</span>
+					        <h2>Heading H2(48px)</h2></div>
+					    <div class="col"><span>H3(SEMI-BOLD)</span>
+					        <h3>Heading H3(32px)</h3></div>
+					    <div class="col"><span>H4(MEDIUM)</span>
+					        <h4>Heading H4(24px)</h4></div>
+					    <div class="col"><span>P(REGULAR)</span>
+					        <p>Paragraph P(18px)</p>
+					    </div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
