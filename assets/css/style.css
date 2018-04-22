@@ -1,3 +1,34 @@
+:root {
+  --three-template-col: repeat(3, 1fr);
+  --five-template-col: repeat(5, 1fr);
+  --twelve-template-col: repeat(1, 1fr);
+  --h1: 64px;
+  --h2: 48px;
+  --h3: 32px;
+  --h4: 24px;
+  --fw-100: 100;
+  --fw-200: 200;
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-800: 800;
+  --fw-900: 900;
+  --primary: #0066DC ;
+  --primary-light: #5299EB;
+  --primary-dark: #0056BA;
+  --secondary: #FF8484;
+  --secondary-light: #F58C8C;
+  --secondary-dark: #E06363;
+  --white: #fff;
+  --light-grey: #F6F7FB;
+  --dark-grey: #D0DAE6;
+  --success: #66C44F;
+  --warning: #FF7A37;
+  --danger: #E62254;
+}
+
 /*
 * GLOBAL CSS
 */

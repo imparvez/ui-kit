@@ -1,21 +1,3 @@
-:root {
-  --five-template-col: repeat(5, 1fr);
-  --twelve-template-col: repeat(1, 1fr);
-  --h1: 64px;
-  --h2: 48px;
-  --h3: 32px;
-  --h4: 24px;
-  --fw-100: 100;
-  --fw-200: 200;
-  --fw-300: 300;
-  --fw-400: 400;
-  --fw-500: 500;
-  --fw-600: 600;
-  --fw-700: 700;
-  --fw-800: 800;
-  --fw-900: 900;
-}
-
 .row {
     display: grid;
     grid-gap: 20px;
