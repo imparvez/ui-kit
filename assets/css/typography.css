@@ -1,3 +1,21 @@
+:root {
+  --five-template-col: repeat(5, 1fr);
+  --twelve-template-col: repeat(1, 1fr);
+  --h1: 64px;
+  --h2: 48px;
+  --h3: 32px;
+  --h4: 24px;
+  --fw-100: 100;
+  --fw-200: 200;
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-800: 800;
+  --fw-900: 900;
+}
+
 .row {
     display: grid;
     grid-gap: 20px;
@@ -5,11 +23,11 @@
 }
 
 .span-5 {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: var(--five-template-col);
 }
 
 .span-12 {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: var(--twelve-template-col);
 }
 
 #typeface .col {
@@ -26,23 +44,23 @@
 }
 
 #typeface .col:nth-of-type(1) {
-    font-weight: 300;
+    font-weight: var(--fw-300);
 }
 
 #typeface .col:nth-of-type(2) {
-    font-weight: 500;
+    font-weight: var(--fw-500);
 }
 
 #typeface .col:nth-of-type(3) {
-    font-weight: 600;
+    font-weight: var(--fw-600);
 }
 
 #typeface .col:nth-of-type(4) {
-    font-weight: 700;
+    font-weight: var(--fw-700);
 }
 
 #typeface .col:nth-of-type(5) {
-    font-weight: 900;
+    font-weight: var(--fw-900);
 }
 
 #typeface .col > span {
@@ -63,23 +81,23 @@
 }
 
 h1 {
-    font-size: 64px;
-    font-weight: 900;
+    font-size: var(--h1);
+    font-weight: var(--fw-900);
 }
 
 h2 {
-    font-size: 48px;
-    font-weight: 900;
+    font-size: var(--h2);
+    font-weight: var(--fw-900);
 }
 
 h3 {
-    font-size: 32px;
-    font-weight: 700;
+    font-size: var(--h3);
+    font-weight: var(--fw-700);
 }
 
 h4 {
-    font-size: 24px;
-    font-weight: 600;
+    font-size: var(--h4);
+    font-weight: var(--fw-600);
 }
 
 #hierarchy .col p {
