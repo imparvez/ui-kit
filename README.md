@@ -5,9 +5,9 @@ Fully coded UI kit to create web apps
 ### Our Technologies
 - HTML
 - CSS
+- React
 
 ### Upcoming Tech Stack
-- React
 - Vue
 - Bootstrap
 - Sass
